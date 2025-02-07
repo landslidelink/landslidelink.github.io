@@ -1,7 +1,7 @@
 
 
 
-img = imread('aziarial.jpg'); % Read image
+img = imread('cnarial.png'); % Read image
 fig = figure;
 imshow(img);
 axis off; % Remove axes
@@ -13,9 +13,9 @@ set(gcf, 'Color', 'w', 'Position', [100, 100, size(img, 2), size(img, 1)]); % Ad
 
 % Define output path
 folderPath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\images'; % Change this path
-fileName = fullfile(folderPath, 'output.svg'); % Full file path
+fileName = fullfile(folderPath, 'cnarial.svg'); % Full file path
 
 % Save as SVG without borders
 print(fig, fileName, '-dsvg', '-r300');
 
-%close(fig); % Close figure to avoid clutter
+close(fig); % Close figure to avoid clutter
