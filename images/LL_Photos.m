@@ -1,7 +1,7 @@
 
 
 
-img = imread('fcarial.png'); % Read image
+img = imread('hoosmap.png'); % Read image
 fig = figure;
 imshow(img);
 axis off; % Remove axes
@@ -13,7 +13,7 @@ set(gcf, 'Color', 'w', 'Position', [100, 100, size(img, 2), size(img, 1)]); % Ad
 
 % Define output path
 folderPath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\images'; % Change this path
-fileName = fullfile(folderPath, 'fcarial.svg'); % Full file path
+fileName = fullfile(folderPath, 'hoosmap.svg'); % Full file path
 
 % Save as SVG without borders
 print(fig, fileName, '-dsvg', '-r300');
