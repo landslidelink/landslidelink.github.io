@@ -12,10 +12,10 @@ set(gca, 'Units', 'normalized', 'Position', [0 0 1 1]); % Remove margins
 set(gcf, 'Color', 'w', 'Position', [100, 100, size(img, 2), size(img, 1)]); % Adjust figure size
 
 % Define output path
-folderPath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\images'; % Change this path
-fileName = fullfile(folderPath, 'hoosmap.svg'); % Full file path
+folderPath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\images'; 
+fileName = fullfile(folderPath, 'hoosmap.svg'); 
 
 % Save as SVG without borders
 print(fig, fileName, '-dsvg', '-r300');
 
-close(fig); % Close figure to avoid clutter
+close(fig); 
