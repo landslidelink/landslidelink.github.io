@@ -977,7 +977,7 @@ clear vars
 % Define which rovers to include in the analysis (e.g., [2, 4])
 %_________________________________________________________________________
 
-selected_rovers = [1,2];
+selected_rovers = [4];
 
 %_________________________________________________________________________
 
@@ -990,7 +990,7 @@ tic
 datapath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\processing';
 num_rovers = length(selected_rovers);
 current_date = datestr(now,'yyyymmdd'); %get current date
-rover_filenames = arrayfun(@(n) sprintf('%s_hwy26_r%d.csv', current_date, n), selected_rovers, 'UniformOutput', false);
+rover_filenames = arrayfun(@(n) sprintf('%s_Moolack_r%d.csv', current_date, n), selected_rovers, 'UniformOutput', false);
 
 target_start = datetime('now') - days(30);
 target_start.Format = 'yyyy-MM-dd HH:mm:ss';
@@ -1135,7 +1135,7 @@ for i = 1:num_rovers
     plot(dat.time, dat.(sprintf('cumdisp_r%d', selected_rovers(i))));
     hold on;
 end
-legend(legend_labels, 'Location', 'northwest');
+legend('Carmel Knoll');
 ylabel('Cumulative Displacement (cm)');
 
 % Dynamically insert last update time in the title
