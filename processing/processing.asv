@@ -2323,7 +2323,7 @@ set(gcf, 'Color', 'w', 'Position', [100, 100, 1000, 600]); % [x, y, width, heigh
 
 % Define output path
 folderPath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\data'; 
-fileName = fullfile(folderPath, 'fcdat.svg'); 
+fileName = fullfile(folderPath, 'webdat.svg'); 
 
 % Save as SVG without borders
 print(fig, fileName, '-dsvg', '-r300');
