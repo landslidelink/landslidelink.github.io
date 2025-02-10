@@ -2,7 +2,7 @@
 folderPath = 'C:\Users\fulmere\Documents\GitHub\landslidelink.github.io\processing';
 
 % Set the threshold for deleting old files (e.g., 180 days = 6 months)
-daysToKeep = 1; 
+daysToKeep = 0; 
 cutoffDate = datetime('now') - days(daysToKeep);
 
 % Get a list of all CSV files in the folder
