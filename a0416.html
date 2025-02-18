@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Landslide Link</title>
@@ -13,79 +8,79 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="icon" type="image/png" href="images/LLogo.svg">
 			
-			<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var accessCode = "spindrift"; // Set your access code
-        var userCode = prompt("Enter access code:");
-
-        if (userCode !== accessCode) {
-            alert("Incorrect access code. Redirecting...");
-            window.location.href = "https://www.google.com"; // Redirect to another page
-        }
-    });
-</script>
-
+		<style>
+			body {
+				display: none; /* Hide everything until the correct access code is entered */
+			}
+		</style>
 			
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				var accessCode = "drift"; // Set your access code
+				var userCode = prompt("Enter access code:");
+
+				if (userCode === accessCode) {
+					document.body.style.display = "block"; // Show content if correct
+				} else {
+					alert("Incorrect access code. Redirecting...");
+					window.location.href = "https://www.google.com"; // Redirect if incorrect
+				}
+			});
+		</script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<!-- Logo -->
+					<a href="a0416.html" class="logo">
+						<span class="symbol"><img src="images/LLogo.svg" alt="" /></span><span class="title">Landslide Link</span>
+					</a>
+				</div>
+			</header>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-
-							<!-- Logo -->
-								<a href="a0416.html" class="logo">
-									<span class="symbol"><img src="images/LLogo.svg" alt="" /></span><span class="title">Landslide Link</span>
-								</a>
-						</div>
-					</header>
-
-
-<!-- Main -->
-<div id="main">
-    <div class="inner">
-        <!-- Large stacked images -->
-        <div class="image-stack">
-			<img src="data/fcquiv.svg" alt="30-day Displacement">
-					<p>30-Day 2D displacement vectors. Reference vector length shown in blue. <br><i>Note: Minimal displacements (i.e., less than 1cm) may produce inaccurate trajectories due to GNSS noise. All locations are approximate.</i> </p>
-            <img src="data/fcdat.svg" alt="30-day Displacement">
-					<p>Cumulative 3D displacement of RTK-GNSS rovers over the past 30 days. <br><i>Note: Positional accuracies are generally on the order of 1 cm. Small fluctuations in cumulative displacement may occur due to GNSS noise. </i></p>
-			<img src="data/fctab.svg" alt="30-day Displacement">
-					<p><b>Rovers 1 and 2</b> installed on August 24, 2023. <br> <b>Rovers 3 and 4</b> installed on November 03, 2023. <br> <b>Rovers 5 and 6</b> installed on April 5, 2024. <br> <b>Rover 7</b> Installed on September 9, 2024. <br> <b>Rovers 8 and 9</b> installed on September 20, 2024. </p>
-        </div>
-
-
-
-    </div>
-</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="mailto:fulmere@oregonstate.edu">
-									<ul class="actions">
-										<li><input type="submit" value="Contact the Team" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<ul class="copyright">
-								<li>&copy; Landslide Link. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
+			<!-- Main Content -->
+			<div id="main">
+				<div class="inner">
+					<!-- Large stacked images -->
+					<div class="image-stack">
+						<img src="data/fcquiv.svg" alt="30-day Displacement">
+						<p>30-Day 2D displacement vectors. Reference vector length shown in blue. <br><i>Note: Minimal displacements (i.e., less than 1cm) may produce inaccurate trajectories due to GNSS noise. All locations are approximate.</i></p>
+						
+						<img src="data/fcdat.svg" alt="30-day Displacement">
+						<p>Cumulative 3D displacement of RTK-GNSS rovers over the past 30 days. <br><i>Note: Positional accuracies are generally on the order of 1 cm. Small fluctuations in cumulative displacement may occur due to GNSS noise. </i></p>
+						
+						<img src="data/fctab.svg" alt="30-day Displacement">
+						<p><b>Rovers 1 and 2</b> installed on August 24, 2023. <br> <b>Rovers 3 and 4</b> installed on November 03, 2023. <br> <b>Rovers 5 and 6</b> installed on April 5, 2024. <br> <b>Rover 7</b> Installed on September 9, 2024. <br> <b>Rovers 8 and 9</b> installed on September 20, 2024. </p>
+					</div>
+				</div>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h2>Get in touch</h2>
+						<form method="post" action="mailto:fulmere@oregonstate.edu">
+							<ul class="actions">
+								<li><input type="submit" value="Contact the Team" class="primary" /></li>
+							</ul>
+						</form>
+					</section>
+					<ul class="copyright">
+						<li>&copy; Landslide Link. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
 
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
