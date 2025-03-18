@@ -1,5 +1,5 @@
 # Define the MATLAB executable path (update if needed)
-$matlabPath = "C:\Program Files\MATLAB\R2023a\bin\matlab.exe"
+$matlabPath = "C:\Program Files\MATLAB\R2024b\bin\matlab.exe"
 
 # Define the MATLAB script path (make sure it's saved as 'processing.m')
 $scriptPath = "C:\Users\fulmere\Documents\GitHub\ll_processing\processing"
