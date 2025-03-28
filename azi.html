@@ -61,6 +61,8 @@
         <h1><a href="https://www.google.com/maps/@42.6266896,-124.4013026,1290m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"> Arizona Inn Landslide </a></h1>
 
         <!-- Large stacked images -->
+		<div class="dot-dot-dot">Processing<span id="dot-animation"></span></div>
+
         <div class="image-stack">
             <img src="images/azimap.svg" alt="Arizona Inn Landslide Rover Locations">
 			        <p>Location of RTK-GNSS rovers on the Arizona Inn Landslide. All locations are approximate.</p>
@@ -99,6 +101,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<script>
+    const dots = document.getElementById("dot-animation");
+    let count = 0;
+
+    setInterval(() => {
+        count = (count + 1) % 4;
+        dots.textContent = ".".repeat(count);
+    }, 500);
+</script>
 
 	</body>
 </html>
