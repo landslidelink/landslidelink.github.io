@@ -64,7 +64,7 @@
     ><text x="-235" xml:space="preserve" y="-23" style="stroke:none;"
       >30-day 2D Displacement Vectors (Reference Vector Shown in Blue) </text
       ><text x="-207.5" xml:space="preserve" y="-4" style="stroke:none;"
-      > Updated 06-22-2025 11:21  |  Next Update: 06-23-2025 11:21</text
+      > Updated 06-22-2025 11:51  |  Next Update: 06-23-2025 11:51</text
     ></g
     ><g transform="matrix(0.4997,0,0,0.5,76.6566,51)" style="fill-opacity:0; fill:rgb(0,0,0); text-rendering:optimizeSpeed; image-rendering:optimizeSpeed; color-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(0,0,0); color-interpolation:sRGB; stroke-opacity:0;"
     ><image x="0" y="0" width="944" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA7AAAAPICAIAAABvroA5AACAAElEQVR42mzcZ5Qk
@@ -44346,24 +44346,24 @@ Y0/94f8FqHuyBUhEtrUAAAAASUVORK5CYII=" style="clip-path:url(#clipPath2);" height=
       >R1</text
     ></g
     ><g style="stroke-linecap:butt; fill:red; text-rendering:geometricPrecision; image-rendering:optimizeQuality; color-rendering:optimizeQuality; stroke-linejoin:round; stroke:red; color-interpolation:linearRGB; stroke-width:2.6667;"
-    ><path d="M272.7681 193.6479 L272.6895 194.3714 L273.0994 193.77" style="fill:none; fill-rule:evenodd;"
-      /><line y2="194.3714" style="fill:none;" x1="273.4295" x2="272.6895" y1="192.364"
+    ><path d="M272.7392 193.6292 L272.6437 194.3492 L273.0668 193.7589" style="fill:none; fill-rule:evenodd;"
+      /><line y2="194.3492" style="fill:none;" x1="273.4295" x2="272.6437" y1="192.364"
     /></g
     ><g transform="translate(273.4295,402.1605)" style="font-size:20px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; font-weight:bold;"
     ><text x="0" xml:space="preserve" y="8" style="stroke:none;"
       >R2</text
     ></g
     ><g style="stroke-linecap:butt; fill:red; text-rendering:geometricPrecision; image-rendering:optimizeQuality; color-rendering:optimizeQuality; stroke-linejoin:round; stroke:red; color-interpolation:linearRGB; stroke-width:2.6667;"
-    ><path d="M274.1047 411.0408 L273.6303 412.1828 L274.5863 411.3984" style="fill:none; fill-rule:evenodd;"
-      /><line y2="412.1828" style="fill:none;" x1="275.7975" x2="273.6303" y1="409.2642"
+    ><path d="M273.8996 411.5717 L273.4249 413.0004 L274.5161 411.9632" style="fill:none; fill-rule:evenodd;"
+      /><line y2="413.0004" style="fill:none;" x1="275.7975" x2="273.4249" y1="409.2642"
     /></g
     ><g transform="translate(269.1673,263.4012)" style="font-size:20px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; font-weight:bold;"
     ><text x="0" xml:space="preserve" y="8" style="stroke:none;"
       >R3</text
     ></g
     ><g style="stroke-linecap:butt; fill:red; text-rendering:geometricPrecision; image-rendering:optimizeQuality; color-rendering:optimizeQuality; stroke-linejoin:round; stroke:red; color-interpolation:linearRGB; stroke-width:2.6667;"
-    ><path d="M270.726 270.6907 L270.3792 270.9246 L270.7953 270.8815" style="fill:none; fill-rule:evenodd;"
-      /><line y2="270.9246" style="fill:none;" x1="271.5352" x2="270.3792" y1="270.5049"
+    ><path d="M270.5139 271.5866 L270.2295 272.2801 L270.8068 271.802" style="fill:none; fill-rule:evenodd;"
+      /><line y2="272.2801" style="fill:none;" x1="271.5352" x2="270.2295" y1="270.5049"
       /><path d="M193.9626 146.7581 L187.7113 148.3209 L193.9626 149.8838" style="fill:none; fill-rule:evenodd; stroke:blue;"
       /><line x1="206.6546" x2="187.7113" y1="148.3209" style="fill:none; stroke:blue;" y2="148.3209"
     /></g
