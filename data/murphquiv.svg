@@ -65,7 +65,7 @@
     ><text x="-235" xml:space="preserve" y="-23" style="stroke:none;"
       >30-day 2D Displacement Vectors (Reference Vector Shown in Blue) </text
       ><text x="-207.5" xml:space="preserve" y="-4" style="stroke:none;"
-      > Updated 07-22-2025 09:21  |  Next Update: 07-23-2025 09:21</text
+      > Updated 07-22-2025 09:51  |  Next Update: 07-23-2025 09:51</text
     ></g
     ><g transform="matrix(0.4997,0,0,0.5,51.8846,51)" style="fill-opacity:0; fill:rgb(0,0,0); text-rendering:optimizeSpeed; image-rendering:optimizeSpeed; color-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(0,0,0); color-interpolation:sRGB; stroke-opacity:0;"
     ><image x="0" y="0" width="1043" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABBMAAAPICAIAAAAE+iRoAACAAElEQVR42uy9+fdd
@@ -14694,8 +14694,8 @@ TOZ/fWn7G3i4WeP/BTUkBX8KjGinAAAAAElFTkSuQmCC" style="clip-path:url(#clipPath2);"
       >R1</text
     ></g
     ><g style="stroke-linecap:butt; fill:red; text-rendering:geometricPrecision; image-rendering:optimizeQuality; color-rendering:optimizeQuality; stroke-linejoin:round; stroke:red; color-interpolation:linearRGB; stroke-width:2.6667;"
-    ><path d="M385.1153 295.7631 L385.2631 295.6905 L385.0985 295.685" style="fill:none; fill-rule:evenodd;"
-      /><line y2="295.6905" style="fill:none;" x1="384.7897" x2="385.2631" y1="295.7923"
+    ><path d="M384.7328 296.3169 L384.801 296.5739 L384.8618 296.3151" style="fill:none; fill-rule:evenodd;"
+      /><line y2="296.5739" style="fill:none;" x1="384.7897" x2="384.801" y1="295.7923"
       /><path d="M231.2749 405.8402 L227.1795 406.8641 L231.2749 407.888" style="fill:none; fill-rule:evenodd; stroke:blue;"
       /><line x1="239.5897" x2="227.1795" y1="406.8641" style="fill:none; stroke:blue;" y2="406.8641"
     /></g
