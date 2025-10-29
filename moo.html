@@ -13,7 +13,7 @@
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="icon" type="image/png" href="images/LLogo.svg">
 
-    <!-- Tabs + light SVG helpers -->
+    <!-- Tabs + light image helpers -->
     <style>
       /* Tabs */
       .tabs { margin: 1.5rem 0; }
@@ -23,9 +23,9 @@
       .tabs .panel { display:none; }
       .tabs .panel.active { display:block; }
 
-      /* Make embedded SVG scale */
-      .svg-embed { width: 100%; height: auto; display:block; }
-      .svg-embed[role="img"] { outline: none; }
+      /* Make images scale */
+      .img-fluid { width: 75%; height: auto; display:block; }
+      .img-fluid[role="img"] { outline: none; }
     </style>
   </head>
   <body class="is-preload">
@@ -102,13 +102,13 @@
               <div class="panels">
                 <!-- Panel: 30-day (default) -->
                 <div class="panel active" role="tabpanel" id="panel-both-30d" aria-labelledby="tab-both-30d" data-tab-panel="30d">
-                  <!-- Displacement (plain, no frame) -->
-                  <img class="svg-fluid" src="data/moodat.svg" alt="Cumulative 3D displacement (30 Days)">
+                  <!-- Displacement (PNG) -->
+                  <img class="img-fluid" src="data/moodat.png" alt="Cumulative 3D displacement (30 Days)">
 
                   <p>Cumulative 3D displacement of RTK-GNSS rovers over the past 30 days. Shaded regions represent the uncertainty bounds (±1 standard deviation).</p>
 
-                  <!-- Quiver (plain, like original) -->
-                  <img src="data/mooquiv.svg" alt="2D displacement vectors (30 days)">
+                  <!-- Quiver (PNG) -->
+                  <img class="img-fluid" src="data/mooquiv.png" alt="2D displacement vectors (30 days)">
                   <p>30-Day 2D displacement vectors. Reference vector length shown in blue. Basemap source: Oregon LiDAR Consortium.
                     <br><i>Note: Minimal displacements (i.e., less than 1&nbsp;cm) may produce inaccurate trajectories due to GNSS noise.</i>
                   </p>
@@ -116,20 +116,20 @@
 
                 <!-- Panel: 1-year -->
                 <div class="panel" role="tabpanel" id="panel-both-1y" aria-labelledby="tab-both-1y" data-tab-panel="1y">
-                  <!-- Displacement (plain, no frame) -->
-                  <img class="svg-fluid" src="data/moodat1y.svg" alt="Cumulative 3D displacement (last year)">
+                  <!-- Displacement (PNG) -->
+                  <img class="img-fluid" src="data/moodat1y.png" alt="Cumulative 3D displacement (last year)">
 
                   <p>Cumulative 3D displacement of RTK-GNSS rovers over the past year. Shaded regions represent the uncertainty bounds (±1 standard deviation).</p>
 
-                  <!-- Quiver (plain, like original) -->
-                  <img src="data/mooquiv1y.svg" alt="2D displacement vectors (last year)">
+                  <!-- Quiver (PNG) -->
+                  <img class="img-fluid" src="data/mooquiv1y.png" alt="2D displacement vectors (last year)">
                   <p>1-Year 2D displacement vectors. Reference vector length shown in blue. Basemap source: Oregon LiDAR Consortium.</p>
                 </div>
               </div>
             </div>
 
-            <!-- Other content unchanged -->
-            <img src="data/mootab.svg" alt="Installation date">
+            <!-- Install table (PNG) -->
+            <img class="img-fluid" src="data/mootab.png" alt="Installation date">
             <p>Systems installed on August 3, 2024.</p>
           </div>
         </div>

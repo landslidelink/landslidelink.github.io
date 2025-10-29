@@ -12,7 +12,7 @@
     <style>
       body { display: none; }
 
-      /* Tabs (same light styles you've been using) */
+      /* Tabs */
       .tabs { margin: 1.5rem 0; }
       .tabs .tabbar { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
       .tabs .tabbar .button { line-height: 2.25rem; }
@@ -20,9 +20,9 @@
       .tabs .panel { display:none; }
       .tabs .panel.active { display:block; }
 
-      /* Make embedded SVG scale */
-      .svg-embed { width: 100%; height: auto; display:block; }
-      .svg-embed[role="img"] { outline: none; }
+      /* Make images scale */
+      .img-fluid { width: 75%; height: auto; display:block; }
+      .img-fluid[role="img"] { outline: none; }
     </style>
 
     <script>
@@ -81,34 +81,34 @@
             <div class="panels">
               <!-- Panel: 30-day (default) -->
               <div class="panel active" role="tabpanel" id="panel-both-30d" aria-labelledby="tab-both-30d" data-tab-panel="30d">
-                <!-- Quiver (plain image) -->
-                <img src="data/fcquiv.svg" alt="2D displacement vectors (30 days)">
+                <!-- Quiver (PNG) -->
+                <img class="img-fluid" src="data/fcquiv.png" alt="2D displacement vectors (30 days)">
                 <p>30-Day 2D displacement vectors. Reference vector length shown in blue.
                   <br><i>Note: Minimal displacements (i.e., less than 1&nbsp;cm) may produce inaccurate trajectories due to GNSS noise. All locations are approximate.</i>
                 </p>
 
-                <!-- Displacement (vector embed, no frame) -->
-                <img class="svg-fluid" src="data/fcdat.svg" alt="Cumulative 3D displacement (30 Days)">
+                <!-- Displacement (PNG) -->
+                <img class="img-fluid" src="data/fcdat.png" alt="Cumulative 3D displacement (30 Days)">
 
                 <p>Cumulative 3D displacement of RTK-GNSS rovers over the past 30 days. Shaded regions represent the uncertainty bounds (±1 standard deviation).</p>
               </div>
 
               <!-- Panel: 1-year -->
               <div class="panel" role="tabpanel" id="panel-both-1y" aria-labelledby="tab-both-1y" data-tab-panel="1y">
-                <!-- Quiver (plain image) -->
-                <img src="data/fcquiv1y.svg" alt="2D displacement vectors (last year)">
+                <!-- Quiver (PNG) -->
+                <img class="img-fluid" src="data/fcquiv1y.png" alt="2D displacement vectors (last year)">
                 <p>1-Year 2D displacement vectors. Reference vector length shown in blue.</p>
 
-                <!-- Displacement (vector embed, no frame) -->
-                <img class="svg-fluid" src="data/fcdat1y.svg" alt="Cumulative 3D displacement (last year)">
+                <!-- Displacement (PNG) -->
+                <img class="img-fluid" src="data/fcdat1y.png" alt="Cumulative 3D displacement (last year)">
 
                 <p>Cumulative 3D displacement of RTK-GNSS rovers over the past year. Shaded regions represent the uncertainty bounds (±1 standard deviation).</p>
               </div>
             </div>
           </div>
 
-          <!-- Install table (unchanged) -->
-          <img src="data/fctab.svg" alt="Installation timeline">
+          <!-- Install table (PNG) -->
+          <img class="img-fluid" src="data/fctab.png" alt="Installation timeline">
           <p><b>Rovers 1 and 2</b> installed on August 24, 2023.  <br> <b>Rovers 3 and 4</b> installed on November 03, 2023. <br> <b>Rovers 5 and 6</b> installed on April 5, 2024. <br> <b>Rover 7</b> Installed on September 9, 2024. <br> <b>Rovers 8 and 9</b> installed on September 20, 2024. </p>
 
         </div>
