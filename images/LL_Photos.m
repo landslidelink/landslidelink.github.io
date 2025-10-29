@@ -1,7 +1,7 @@
 
 
 
-img = imread('woodmap.png'); % Read image
+img = imread('hoosmap.png'); % Read image
 fig = figure;
 imshow(img);
 axis off; % Remove axes
