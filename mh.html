@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<!--
+  Phantom by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Landslide Link</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="icon" type="image/png" href="images/LLogo.svg">
+
+    <!-- Tabs + light image helpers -->
+    <style>
+      /* Tabs */
+      .tabs { margin: 1.5rem 0; }
+      .tabs .tabbar { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
+      .tabs .tabbar .button { line-height: 2.25rem; }
+      .tabs .panels { margin-top: 1rem; }
+      .tabs .panel { display:none; }
+      .tabs .panel.active { display:block; }
+
+      /* Make images scale */
+      .img-fluid { width: 75%; height: auto; display:block; }
+      .img-fluid[role="img"] { outline: none; }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="images/LLogo.svg" alt="" /></span><span class="title">Landslide Link</span>
+          </a>
+
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hoos.html">Hooskanaden</a></li>
+          <li><a href="azi.html">Arizona Inn</a></li>
+          <li><a href="fps.html">Frankport South</a></li>
+          <li><a href="retz.html">Retz Creek</a></li>
+          <li><a href="moo.html">Moolack</a></li>
+          <li><a href="cn.html">Carmel Knoll</a></li>
+          <li><a href="jc.html">Johnson Creek</a></li>
+          <li><a href="mh.html">Murphy Hill</a></li>
+          <li><a href="hwy26.html">HWY 26 MP 13</a></li>
+          <li><a href="web.html">Weber</a></li>
+          <li><a href="rm.html">Roberts Mountain</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <h1><a href="https://www.google.com/maps/@45.0585622,-123.6859076,1012m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"> Murphy Hill Landslide </a></h1>
+
+          <div class="image-stack">
+            <img src="images/mhmap.svg" alt="Murphy Hill Landslide Rover Locations">
+            <p>Location of RTK-GNSS rovers on the Murphy Hill Landslide. All locations are approximate.</p>
+
+            <!-- ONE tab group controls BOTH datasets -->
+            <div class="tabs" id="mh-tabs" data-hash="t">
+              <div class="tabbar actions" role="tablist" aria-label="Timespan">
+                <a href="#"
+                   class="button primary small"
+                   role="tab"
+                   aria-selected="true"
+                   aria-controls="panel-both-30d"
+                   id="tab-both-30d"
+                   data-tab="30d">Last 30 Days</a>
+
+                <a href="#"
+                   class="button small"
+                   role="tab"
+                   aria-selected="false"
+                   aria-controls="panel-both-1y"
+                   id="tab-both-1y"
+                   data-tab="1y">Last Year</a>
+              </div>
+
+              <div class="panels">
+                <!-- Panel: 30-day (default) -->
+                <div class="panel active" role="tabpanel" id="panel-both-30d" aria-labelledby="tab-both-30d" data-tab-panel="30d">
+                  <!-- Displacement (PNG) -->
+                  <img class="img-fluid" src="data/murphdat.png" alt="Cumulative 3D displacement (30 Days)">
+
+                  <p>Cumulative 3D displacement of RTK-GNSS rovers over the past 30 days. Shaded regions represent the uncertainty bounds (±1 standard deviation).</p>
+
+                  <!-- Quiver (PNG) -->
+                  <img class="img-fluid" src="data/murphquiv.png" alt="2D displacement vectors (30 days)">
+                  <p>30-Day 2D displacement vectors. Reference vector length shown in blue. Basemap source: Oregon LiDAR Consortium.
+                    <br><i>Note: Minimal displacements (i.e., less than 1&nbsp;cm) may produce inaccurate trajectories due to GNSS noise.</i>
+                  </p>
+                </div>
+
+                <!-- Panel: 1-year -->
+                <div class="panel" role="tabpanel" id="panel-both-1y" aria-labelledby="tab-both-1y" data-tab-panel="1y">
+                  <!-- Displacement (PNG) -->
+                  <img class="img-fluid" src="data/murphdat1y.png" alt="Cumulative 3D displacement (last year)">
+
+                  <p>Cumulative 3D displacement of RTK-GNSS rovers over the past year. Shaded regions represent the uncertainty bounds (±1 standard deviation).</p>
+
+                  <!-- Quiver (PNG) -->
+                  <img class="img-fluid" src="data/murphquiv1y.png" alt="2D displacement vectors (last year)">
+                  <p>1-Year 2D displacement vectors. Reference vector length shown in blue. Basemap source: Oregon LiDAR Consortium.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Install table (PNG) -->
+            <img class="img-fluid" src="data/murphtab.png" alt="Installation date">
+            <p>Systems installed on November 23, 2024.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>Get in touch</h2>
+            <form method="post" action="mailto:fulmere@oregonstate.edu">
+              <ul class="actions">
+                <li><input type="submit" value="Contact the Team" class="primary" /></li>
+              </ul>
+            </form>
+          </section>
+          <ul class="copyright">
+            <li>&copy; Landslide Link. All rights reserved</li>
+          </ul>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Tabs behavior (deep-link aware) -->
+    <script>
+      (function () {
+        function setHashParam(obj) {
+          const params = new URLSearchParams((location.hash || '').replace(/^#/, ''));
+          Object.keys(obj).forEach(k => params.set(k, obj[k]));
+          const s = params.toString();
+          history.replaceState(null, '', s ? ('#' + s) : '#');
+        }
+        function getHashValue(key, fallback) {
+          const params = new URLSearchParams((location.hash || '').replace(/^#/, ''));
+          return params.get(key) || fallback;
+        }
+
+        document.querySelectorAll('.tabs').forEach(root => {
+          const hashKey = root.getAttribute('data-hash'); // 't'
+          const tabs   = root.querySelectorAll('[role="tab"][data-tab]');
+          const panels = root.querySelectorAll('[role="tabpanel"][data-tab-panel]');
+
+          function activate(val) {
+            panels.forEach(p => p.classList.toggle('active', p.getAttribute('data-tab-panel') === val));
+            tabs.forEach(t => {
+              const on = t.getAttribute('data-tab') === val;
+              t.classList.toggle('primary', on);
+              t.setAttribute('aria-selected', on ? 'true' : 'false');
+              t.tabIndex = on ? 0 : -1;
+            });
+          }
+
+          tabs.forEach(t => {
+            t.addEventListener('click', (e) => {
+              e.preventDefault();
+              const val = t.getAttribute('data-tab');
+              activate(val);
+              if (hashKey) setHashParam({ [hashKey]: val });
+            });
+
+            t.addEventListener('keydown', (e) => {
+              if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+                const arr = Array.from(tabs);
+                const i = arr.indexOf(t);
+                const next = e.key === 'ArrowRight' ? (i + 1) % arr.length : (i - 1 + arr.length) % arr.length;
+                arr[next].focus();
+                arr[next].click();
+              }
+            });
+          });
+
+          const initial = hashKey ? getHashValue(hashKey, '30d') : '30d';
+          activate(initial);
+        });
+      })();
+    </script>
+  </body>
+</html>

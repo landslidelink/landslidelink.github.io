@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<!--
+  Phantom by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Landslide Link</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="icon" type="image/png" href="images/LLogo.svg">
+
+    <!-- Announcement modal styles -->
+    <style>
+      .announce-overlay {
+        position: fixed; inset: 0;
+        background: rgba(10, 12, 16, .55);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        opacity: 0; pointer-events: none;
+        transition: opacity .25s ease;
+        z-index: 10000;
+      }
+      .announce-modal {
+        position: fixed; left: 50%; top: 50%;
+        transform: translate(-50%, -46%) scale(.96);
+        width: min(560px, 92vw);
+        background: #fff;
+        color: inherit;
+        border-radius: 0.9rem;
+        box-shadow: 0 1.25rem 3rem rgba(0,0,0,.22);
+        opacity: 0; pointer-events: none;
+        transition: transform .25s ease, opacity .25s ease;
+        z-index: 10001;
+      }
+      .announce-open .announce-overlay,
+      .announce-open .announce-modal { opacity: 1; pointer-events: auto; }
+      .announce-open .announce-modal { transform: translate(-50%, -50%) scale(1); }
+
+      .announce-header {
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid rgba(0,0,0,.08);
+        display: flex; align-items: center; gap: .65rem;
+        background: linear-gradient(135deg, rgba(0, 138, 230, .08), rgba(0, 200, 160, .08));
+        border-top-left-radius: inherit; border-top-right-radius: inherit;
+      }
+      .announce-title { margin: 0; font-size: 1.05rem; }
+      .announce-body { padding: 1rem 1.25rem; font-size: 0.98rem; line-height: 1.45; }
+      .announce-actions {
+        display: flex; gap: .5rem; justify-content: center;
+        padding: 0 1.25rem 1.1rem 1.25rem;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .announce-overlay, .announce-modal { transition: none; }
+      }
+      .no-scroll { overflow: hidden; }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="images/LLogo.svg" alt="" /></span><span class="title">Landslide Link</span>
+          </a>
+          <nav>
+            <ul><li><a href="#menu">Menu</a></li></ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hoos.html">Hooskanaden</a></li>
+          <li><a href="azi.html">Arizona Inn</a></li>
+          <li><a href="fps.html">Frankport South</a></li>
+          <li><a href="retz.html">Retz Creek</a></li>
+          <li><a href="moo.html">Moolack</a></li>
+          <li><a href="cn.html">Carmel Knoll</a></li>
+          <li><a href="jc.html">Johnson Creek</a></li>
+          <li><a href="mh.html">Murphy Hill</a></li>
+          <li><a href="hwy26.html">HWY 26 MP 13</a></li>
+          <li><a href="web.html">Weber</a></li>
+          <li><a href="rm.html">Roberts Mountain</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <header>
+            <h1>Landslide Link provides access to up-to-date displacement data for landslides monitored<br />
+            by the <a href="https://blogs.oregonstate.edu/leshchinsky/"> Landslide Hazards Research Group </a> at Oregon State University.</h1>
+            <p>These data are offered as-is without any guarantees regarding accuracy, completeness, or reliability. While we strive to maintain high-quality data, we do not warrant that the information presented here is free from errors, omissions, or technical issues. Users should exercise caution and verify critical information before making decisions based on these data. For official use, detailed analysis, or confirmation of specific data, please contact our team before relying on this information. We assume no liability for any loss, damage, or consequences resulting from the use of these data.</p>
+          </header>
+          <section class="tiles">
+            <article class="style13">
+              <span class="image"><img src="images/hoosarial.svg" alt="" /></span>
+              <a href="hoos.html"><h2>Hooskanaden</h2><div class="content"><p>Southern Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/aziarial.svg" alt="" /></span>
+              <a href="azi.html"><h2>Arizona Inn</h2><div class="content"><p>Southern Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/woodarial.svg" alt="" /></span>
+              <a href="fps.html"><h2>Frankport South</h2><div class="content"><p>Southern Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/retzarial.svg" alt="" /></span>
+              <a href="retz.html"><h2>Retz Creek</h2><div class="content"><p>Southern Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/mooarial.svg" alt="" /></span>
+              <a href="moo.html"><h2>Moolack</h2><div class="content"><p>Central Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/cnarial.svg" alt="" /></span>
+              <a href="cn.html"><h2>Carmel Knoll</h2><div class="content"><p>Central Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/jcarial.svg" alt="" /></span>
+              <a href="jc.html"><h2>Johnson Creek</h2><div class="content"><p>Central Oregon Coast</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/mharial.svg" alt="" /></span>
+              <a href="mh.html"><h2>Murphy Hill</h2><div class="content"><p>Oregon Coast Range</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/26arial.svg" alt="" /></span>
+              <a href="hwy26.html"><h2>HWY 26 MP 13</h2><div class="content"><p>Oregon Coast Range</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/webarial.svg" alt="" /></span>
+              <a href="web.html"><h2>Weber Slide</h2><div class="content"><p>Douglass County, Oregon</p></div></a>
+            </article>
+            <article class="style13">
+              <span class="image"><img src="images/rmarial.svg" alt="" /></span>
+              <a href="rm.html"><h2>Roberts Mountain Slide</h2><div class="content"><p>Douglass County, Oregon</p></div></a>
+            </article>
+          </section>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>Get in touch</h2>
+            <form method="post" action="mailto:fulmere@oregonstate.edu">
+              <ul class="actions">
+                <li><input type="submit" value="Contact the Team" class="primary" /></li>
+              </ul>
+            </form>
+          </section>
+          <ul class="copyright">
+            <li>&copy; Landslide Link. All rights reserved</li>
+          </ul>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Announcement modal -->
+    <div class="announce-overlay" id="announceOverlay" hidden></div>
+    <div class="announce-modal" id="announceModal" role="dialog" aria-modal="true" aria-labelledby="announceTitle" aria-describedby="announceBody" hidden>
+      <div class="announce-header">
+        <h3 class="announce-title" id="announceTitle"></h3>
+      </div>
+      <div class="announce-body" id="announceBody">
+        <p>Displacements are now shown for the <strong>Last 30 Days</strong> and the <strong>Last Year</strong>.<br/>Use the tabs at the top of the data to flip between views.</p>
+      </div>
+      <div class="announce-actions">
+        <button class="button small primary" id="announceDismiss">Close</button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Announcement modal behavior (with persistence) -->
+    <script>
+      (function () {
+        const overlay    = document.getElementById('announceOverlay');
+        const modal      = document.getElementById('announceModal');
+        const btnDismiss = document.getElementById('announceDismiss');
+        const titleEl    = document.getElementById('announceTitle');
+
+        // Version this so you can re-show it in the future by bumping the suffix.
+        const STORAGE_KEY = 'll_announce_v1_dismissed';
+
+        function ensureTitle() {
+          if (titleEl && !titleEl.textContent.trim()) {
+            titleEl.textContent = '';
+          }
+        }
+        function openModal() {
+          overlay.hidden = false;
+          modal.hidden = false;
+          document.body.classList.add('announce-open', 'no-scroll');
+          btnDismiss?.focus();
+          document.addEventListener('keydown', escHandler);
+        }
+        function closeModal(persist = true) {
+          if (persist) localStorage.setItem(STORAGE_KEY, '1');
+          document.body.classList.remove('announce-open', 'no-scroll');
+          setTimeout(() => { overlay.hidden = true; modal.hidden = true; }, 200);
+          document.removeEventListener('keydown', escHandler);
+        }
+        function escHandler(e) { if (e.key === 'Escape') closeModal(true); }
+
+        // Click bindings
+        overlay?.addEventListener('click', () => closeModal(true));
+        btnDismiss?.addEventListener('click', () => closeModal(true));
+
+        // Only show if not dismissed yet
+        const dismissed = localStorage.getItem(STORAGE_KEY) === '1';
+        if (!dismissed) {
+          ensureTitle();
+          openModal();
+        }
+      })();
+    </script>
+  </body>
+</html>
