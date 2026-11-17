@@ -4,6 +4,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// Redirect legacy LandslideLink website to new platform.
+if (window.location.hostname === 'landslidelink.github.io') {
+    window.location.replace('https://landslidelink-platform.web.app/');
+}
+
 (function($) {
 
 	var	$window = $(window),
